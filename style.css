@@ -406,6 +406,7 @@ MODAL
 
 .modal__overlay--visible {
 	z-index: 1;
+	display: flex;
 }
 
 .fa-spinner {
