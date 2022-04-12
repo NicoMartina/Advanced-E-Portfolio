@@ -59,8 +59,14 @@ textarea:hover {
 }
 
 input:focus,
-textarea:hover {
+textarea:focus {
 	border-color: #f06449;
+}
+
+.modal__open {
+	z-index: 60;
+	box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
+	visibility: visible;
 }
 
 .container {
@@ -274,10 +280,10 @@ MODAL
 	width: 90%;
 	max-width: 1100px;
 	height: 700px;
-	box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
 	border-radius: 20px;
 	overflow: hidden;
 	display: flex;
+	visibility: ;
 }
 
 .modal__half {

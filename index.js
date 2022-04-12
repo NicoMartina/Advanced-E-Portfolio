@@ -21,3 +21,7 @@ function contact(event) {
 			);
 		});
 }
+
+function toggleModal() {
+	console.log("works");
+}
