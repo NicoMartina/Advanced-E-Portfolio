@@ -132,7 +132,7 @@ nav,
 .header {
 	opacity: 1;
 	visibility: visible;
-	transition: all 400ms;
+	transition: all 400ms 800ms;
 }
 
 .modal__open nav,
@@ -199,6 +199,7 @@ LANDING PAGE
 	position: absolute;
 	bottom: 32px;
 	right: 40px;
+	z-index: 100;
 }
 
 .scroll {
