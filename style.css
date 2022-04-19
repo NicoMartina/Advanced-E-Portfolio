@@ -190,6 +190,9 @@ LANDING PAGE
 #landing-page {
 	min-height: 100vh;
 }
+.header__content {
+	display: flex;
+}
 
 .header {
 	position: absolute;
