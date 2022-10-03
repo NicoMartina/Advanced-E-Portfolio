@@ -194,6 +194,12 @@ LANDING PAGE
 	display: flex;
 }
 
+.header__title__div {
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+}
+
 .header {
 	position: absolute;
 	top: 50%;
@@ -202,6 +208,11 @@ LANDING PAGE
 	width: 100%;
 	max-width: 1000px;
 	padding: 0 30px;
+}
+
+.header__para__social {
+	display: flex;
+	flex-direction: column;
 }
 
 .header__para {
